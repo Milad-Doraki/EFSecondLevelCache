@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Caching;
 using EFSecondLevelCache.Contracts;
+using System.Collections.Concurrent;
 
 namespace EFSecondLevelCache
 {
@@ -13,7 +14,7 @@ namespace EFSecondLevelCache
     public class EFCacheServiceProvider : IEFCacheServiceProvider
     {
         private static readonly EFCacheKey _nullObject = new EFCacheKey();
-        private static readonly SortedSet<string> _rootKeys = new SortedSet<string>();
+        private static readonly ConcurrentDictionary<string,string> _rootKeys = new ConcurrentDictionary<string,string>();
 
         /// <summary>
         /// `HttpRuntime.Cache.Insert` won't accept null values.
@@ -44,7 +45,7 @@ namespace EFSecondLevelCache
         /// <param name="keyHashPrefix">Its default value is EF_.</param>
         public void ClearAllCachedEntries(string keyHashPrefix = EFCacheKey.KeyHashPrefix)
         {
-            InvalidateCacheDependencies(_rootKeys.ToArray());
+            InvalidateCacheDependencies(_rootKeys.Select(c => c.Key).ToArray());
 
             var keys = GetAllEFCachedKeys(keyHashPrefix);
             foreach (var key in keys)
@@ -147,8 +148,11 @@ namespace EFSecondLevelCache
                     CacheItemPriority.Default,
                     null);
 
-                _rootKeys.Add(rootCacheKey);
+                _rootKeys.TryAdd(rootCacheKey, rootCacheKey);
             }
         }
+
+
+
     }
 }

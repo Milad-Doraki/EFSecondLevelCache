@@ -77,9 +77,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\EFSecondLevelCache\EFSecondLevelCache.csproj">
+    <ProjectReference Include="..\..\EFSecondLevelCache\EFSecondLevelCachePlus.csproj">
       <Project>{c348a09f-eed0-4e99-a3b9-5a698c6883d2}</Project>
-      <Name>EFSecondLevelCache</Name>
+      <Name>EFSecondLevelCachePlus</Name>
     </ProjectReference>
     <ProjectReference Include="..\EFSecondLevelCache.TestDataLayer\EFSecondLevelCache.TestDataLayer.csproj">
       <Project>{a206c065-3ca1-4c61-9191-e57ccd589b89}</Project>

@@ -121,9 +121,9 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\EFSecondLevelCache\EFSecondLevelCache.csproj">
+    <ProjectReference Include="..\..\EFSecondLevelCache\EFSecondLevelCachePlus.csproj">
       <Project>{c348a09f-eed0-4e99-a3b9-5a698c6883d2}</Project>
-      <Name>EFSecondLevelCache</Name>
+      <Name>EFSecondLevelCachePlus</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

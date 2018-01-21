@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCache", "EFSecondLevelCache\EFSecondLevelCache.csproj", "{C348A09F-EED0-4E99-A3B9-5A698C6883D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCachePlus", "EFSecondLevelCache\EFSecondLevelCachePlus.csproj", "{C348A09F-EED0-4E99-A3B9-5A698C6883D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCache.FunctionalTests", "EFSecondLevelCache.Tests\EFSecondLevelCache.FunctionalTests\EFSecondLevelCache.FunctionalTests.csproj", "{59E13D5F-0634-4088-8863-D30978DA4ECC}"
 EndProject
