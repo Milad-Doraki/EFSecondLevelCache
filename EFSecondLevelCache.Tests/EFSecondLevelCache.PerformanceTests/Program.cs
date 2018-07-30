@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Data.Entity;
 using System.Diagnostics;
-using System.Linq;
-using EFSecondLevelCache.TestDataLayer.DataLayer;
+using System.Linq; 
+using EFSecondLevelCachePlus.TestDataLayer.DataLayer;
 
-namespace EFSecondLevelCache.PerformanceTests
+namespace EFSecondLevelCachePlus.PerformanceTests
 {
     class Program
     {

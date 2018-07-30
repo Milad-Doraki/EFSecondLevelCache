@@ -3,7 +3,7 @@ using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace EFSecondLevelCache.MockingTests
+namespace EFSecondLevelCachePlus.MockingTests
 {
     public class TestDbAsyncEnumerable<T> : EnumerableQuery<T>, IDbAsyncEnumerable<T>, IQueryable<T>
     {

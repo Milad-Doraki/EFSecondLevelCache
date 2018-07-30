@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// Defines methods to support the comparison of objects for equality.

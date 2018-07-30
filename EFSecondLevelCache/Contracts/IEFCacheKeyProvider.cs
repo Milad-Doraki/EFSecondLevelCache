@@ -1,7 +1,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace EFSecondLevelCache.Contracts
+namespace EFSecondLevelCachePlus.Contracts
 {
     /// <summary>
     /// CacheKeyProvider Contract.

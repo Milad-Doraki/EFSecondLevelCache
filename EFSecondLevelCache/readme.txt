@@ -1,4 +1,4 @@
-﻿EFSecondLevelCache
+﻿EFSecondLevelCachePlus
 =======
 Entity Framework 6.x Second Level Caching Library.
 
@@ -10,7 +10,7 @@ against the database again.
 Usage:
 1- Setting up the cache invalidation by overriding the SaveChanges method to prevent stale reads:
 
-namespace EFSecondLevelCache.TestDataLayer.DataLayer
+namespace EFSecondLevelCachePlus.TestDataLayer.DataLayer
 {
 	public class SampleContext : DbContext
 	{
@@ -39,7 +39,7 @@ namespace EFSecondLevelCache.TestDataLayer.DataLayer
 
 		private string[] getChangedEntityNames()
 		{
-			// Updated version of this method: \EFSecondLevelCache\EFSecondLevelCache.Tests\EFSecondLevelCache.TestDataLayer\DataLayer\SampleContext.cs
+			// Updated version of this method: \EFSecondLevelCachePlus\EFSecondLevelCachePlus.Tests\EFSecondLevelCachePlus.TestDataLayer\DataLayer\SampleContext.cs
 			return this.ChangeTracker.Entries()
 				.Where(x => x.State == EntityState.Added ||
 							x.State == EntityState.Modified ||
@@ -67,4 +67,4 @@ and not frequently changed, private or specific data to each user.
 If a page requires authentication, its data shouldn't be cached.
 
 Project's Url:
-https://github.com/VahidN/EFSecondLevelCache
+https://github.com/Milad-Doraki/EFSecondLevelCachePlus

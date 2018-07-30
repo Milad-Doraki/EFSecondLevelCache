@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace EFSecondLevelCache.UnitTests
+namespace EFSecondLevelCachePlus.UnitTests
 {
     internal sealed class TestConstants
     {

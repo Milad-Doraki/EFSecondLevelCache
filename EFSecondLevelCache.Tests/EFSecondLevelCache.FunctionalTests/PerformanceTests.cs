@@ -1,10 +1,10 @@
 ﻿using System.Data.Entity;
 using System.Diagnostics;
 using System.Linq;
-using EFSecondLevelCache.TestDataLayer.DataLayer;
+using EFSecondLevelCachePlus.TestDataLayer.DataLayer;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace EFSecondLevelCache.FunctionalTests
+namespace EFSecondLevelCachePlus.FunctionalTests
 {
     [TestClass]
     public class PerformanceTests

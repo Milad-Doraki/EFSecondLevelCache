@@ -1,4 +1,4 @@
-namespace EFSecondLevelCache.Contracts
+namespace EFSecondLevelCachePlus.Contracts
 {
     /// <summary>
     /// Stores information of the computed key of the input LINQ query.

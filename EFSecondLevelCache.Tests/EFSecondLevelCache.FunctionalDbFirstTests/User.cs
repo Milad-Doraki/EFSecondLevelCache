@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EFSecondLevelCache.FunctionalDbFirstTests
+namespace EFSecondLevelCachePlus.FunctionalDbFirstTests
 {
     using System;
     using System.Collections.Generic;

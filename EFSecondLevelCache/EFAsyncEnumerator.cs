@@ -4,7 +4,7 @@ using System.Data.Entity.Infrastructure;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// Asynchronous version of the IEnumerator of T interface that allows elements to be retrieved asynchronously.

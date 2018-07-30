@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using EFSecondLevelCache.TestDataLayer.DataLayer;
-using EFSecondLevelCache.TestDataLayer.Models;
+using EFSecondLevelCachePlus.TestDataLayer.DataLayer;
+using EFSecondLevelCachePlus.TestDataLayer.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System.Threading.Tasks;
 using System.Data.Entity.Infrastructure;
 
-namespace EFSecondLevelCache.MockingTests
+namespace EFSecondLevelCachePlus.MockingTests
 {
     [TestClass]
     public class MockingTests

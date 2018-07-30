@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.0
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCachePlus", "EFSecondLevelCache\EFSecondLevelCachePlus.csproj", "{C348A09F-EED0-4E99-A3B9-5A698C6883D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCache.FunctionalTests", "EFSecondLevelCache.Tests\EFSecondLevelCache.FunctionalTests\EFSecondLevelCache.FunctionalTests.csproj", "{59E13D5F-0634-4088-8863-D30978DA4ECC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCachePlus.FunctionalTests", "EFSecondLevelCache.Tests\EFSecondLevelCache.FunctionalTests\EFSecondLevelCachePlus.FunctionalTests.csproj", "{59E13D5F-0634-4088-8863-D30978DA4ECC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C8E062FD-C027-40A6-908F-59158D3EEF67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCache.TestDataLayer", "EFSecondLevelCache.Tests\EFSecondLevelCache.TestDataLayer\EFSecondLevelCache.TestDataLayer.csproj", "{A206C065-3CA1-4C61-9191-E57CCD589B89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCachePlus.TestDataLayer", "EFSecondLevelCache.Tests\EFSecondLevelCache.TestDataLayer\EFSecondLevelCachePlus.TestDataLayer.csproj", "{A206C065-3CA1-4C61-9191-E57CCD589B89}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{415C39FD-6FCB-45EA-84C6-B59EE50B168A}"
 	ProjectSection(SolutionItems) = preProject
@@ -25,13 +25,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCache.PerformanceTests", "EFSecondLevelCache.Tests\EFSecondLevelCache.PerformanceTests\EFSecondLevelCache.PerformanceTests.csproj", "{FA334191-408D-4B9B-AAAC-EB1F3189366B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCachePlus.PerformanceTests", "EFSecondLevelCache.Tests\EFSecondLevelCache.PerformanceTests\EFSecondLevelCachePlus.PerformanceTests.csproj", "{FA334191-408D-4B9B-AAAC-EB1F3189366B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCache.MockingTests", "EFSecondLevelCache.Tests\EFSecondLevelCache.MockingTests\EFSecondLevelCache.MockingTests.csproj", "{70BC2DB8-D5E6-4B46-9368-2F57B127B24F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCachePlus.MockingTests", "EFSecondLevelCache.Tests\EFSecondLevelCache.MockingTests\EFSecondLevelCachePlus.MockingTests.csproj", "{70BC2DB8-D5E6-4B46-9368-2F57B127B24F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCache.FunctionalDbFirstTests", "EFSecondLevelCache.Tests\EFSecondLevelCache.FunctionalDbFirstTests\EFSecondLevelCache.FunctionalDbFirstTests.csproj", "{1651B9BE-7E09-4ABA-A26B-1FF1BF7B9AC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCachePlus.FunctionalDbFirstTests", "EFSecondLevelCache.Tests\EFSecondLevelCache.FunctionalDbFirstTests\EFSecondLevelCachePlus.FunctionalDbFirstTests.csproj", "{1651B9BE-7E09-4ABA-A26B-1FF1BF7B9AC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCache.UnitTests", "EFSecondLevelCache.Tests\EFSecondLevelCache.UnitTests\EFSecondLevelCache.UnitTests.csproj", "{7EC4DC92-9EA1-4990-B6B1-05A1C960E6E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSecondLevelCachePlus.UnitTests", "EFSecondLevelCache.Tests\EFSecondLevelCache.UnitTests\EFSecondLevelCachePlus.UnitTests.csproj", "{7EC4DC92-9EA1-4990-B6B1-05A1C960E6E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,12 +43,12 @@ Global
 		{C348A09F-EED0-4E99-A3B9-5A698C6883D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C348A09F-EED0-4E99-A3B9-5A698C6883D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C348A09F-EED0-4E99-A3B9-5A698C6883D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{59E13D5F-0634-4088-8863-D30978DA4ECC}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{59E13D5F-0634-4088-8863-D30978DA4ECC}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{59E13D5F-0634-4088-8863-D30978DA4ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E13D5F-0634-4088-8863-D30978DA4ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59E13D5F-0634-4088-8863-D30978DA4ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59E13D5F-0634-4088-8863-D30978DA4ECC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A206C065-3CA1-4C61-9191-E57CCD589B89}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{A206C065-3CA1-4C61-9191-E57CCD589B89}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{A206C065-3CA1-4C61-9191-E57CCD589B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A206C065-3CA1-4C61-9191-E57CCD589B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A206C065-3CA1-4C61-9191-E57CCD589B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A206C065-3CA1-4C61-9191-E57CCD589B89}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FA334191-408D-4B9B-AAAC-EB1F3189366B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -78,5 +78,8 @@ Global
 		{70BC2DB8-D5E6-4B46-9368-2F57B127B24F} = {C8E062FD-C027-40A6-908F-59158D3EEF67}
 		{1651B9BE-7E09-4ABA-A26B-1FF1BF7B9AC3} = {C8E062FD-C027-40A6-908F-59158D3EEF67}
 		{7EC4DC92-9EA1-4990-B6B1-05A1C960E6E2} = {C8E062FD-C027-40A6-908F-59158D3EEF67}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D179B3E-7EAB-49D0-92AE-1BF0F0B123E2}
 	EndGlobalSection
 EndGlobal

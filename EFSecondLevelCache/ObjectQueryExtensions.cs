@@ -6,7 +6,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// Extension methods for ObjectQuery.

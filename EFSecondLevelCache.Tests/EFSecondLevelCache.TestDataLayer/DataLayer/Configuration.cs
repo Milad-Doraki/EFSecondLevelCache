@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Data.Entity.Migrations;
 using System.Linq;
-using EFSecondLevelCache.TestDataLayer.Models;
+using EFSecondLevelCachePlus.TestDataLayer.Models;
 
-namespace EFSecondLevelCache.TestDataLayer.DataLayer
+namespace EFSecondLevelCachePlus.TestDataLayer.DataLayer
 {
     public class Configuration : DbMigrationsConfiguration<SampleContext>
     {

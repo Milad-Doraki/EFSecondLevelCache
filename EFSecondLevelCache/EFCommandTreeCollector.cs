@@ -4,7 +4,7 @@ using System.Data.Entity.Core.Metadata.Edm;
 using System.Data.Entity.Core.Objects;
 using System.Data.Entity.Infrastructure.Interception;
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// Receives notifications when Entity Framework creates a DbCommandTree.

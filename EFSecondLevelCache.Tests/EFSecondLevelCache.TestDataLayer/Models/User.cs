@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace EFSecondLevelCache.TestDataLayer.Models
+namespace EFSecondLevelCachePlus.TestDataLayer.Models
 {
     public class User
     {

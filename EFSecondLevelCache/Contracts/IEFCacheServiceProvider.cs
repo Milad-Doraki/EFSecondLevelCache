@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Web.Caching;
 
-namespace EFSecondLevelCache.Contracts
+namespace EFSecondLevelCachePlus.Contracts
 {
     /// <summary>
     /// Cache Service Provider Contract.

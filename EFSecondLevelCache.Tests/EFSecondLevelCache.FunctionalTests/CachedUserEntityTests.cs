@@ -2,12 +2,12 @@
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
-using EFSecondLevelCache.Contracts;
-using EFSecondLevelCache.TestDataLayer.DataLayer;
-using EFSecondLevelCache.TestDataLayer.Models;
+using EFSecondLevelCachePlus.Contracts;
+using EFSecondLevelCachePlus.TestDataLayer.DataLayer;
+using EFSecondLevelCachePlus.TestDataLayer.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace EFSecondLevelCache.FunctionalTests
+namespace EFSecondLevelCachePlus.FunctionalTests
 {
     [TestClass]
     public class CachedUserEntityTests

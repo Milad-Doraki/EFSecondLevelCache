@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EFSecondLevelCache.TestDataLayer.Models
+namespace EFSecondLevelCachePlus.TestDataLayer.Models
 {
     public class Post
     {

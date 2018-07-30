@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// Fast reflection, using compiled property getters.

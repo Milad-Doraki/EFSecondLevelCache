@@ -2,9 +2,9 @@
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using EFSecondLevelCache.Contracts;
+using EFSecondLevelCachePlus.Contracts;
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// A custom cache key provider for normal LINQ to objects queries, results of a Mocking process.

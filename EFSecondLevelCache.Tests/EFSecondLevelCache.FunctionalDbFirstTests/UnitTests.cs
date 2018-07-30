@@ -2,10 +2,10 @@
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
-using EFSecondLevelCache.Contracts;
+using EFSecondLevelCachePlus.Contracts;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace EFSecondLevelCache.FunctionalDbFirstTests
+namespace EFSecondLevelCachePlus.FunctionalDbFirstTests
 {
     [TestClass]
     public class UnitTests

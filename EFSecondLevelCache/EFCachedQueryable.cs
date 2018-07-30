@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using EFSecondLevelCache.Contracts;
+using EFSecondLevelCachePlus.Contracts;
 #if !NET40
 using System.Data.Entity.Infrastructure;
 #endif
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// Provides functionality to evaluate queries against a specific data source.

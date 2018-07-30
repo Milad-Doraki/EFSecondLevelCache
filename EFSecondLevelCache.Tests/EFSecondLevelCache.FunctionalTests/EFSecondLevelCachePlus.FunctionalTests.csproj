@@ -6,8 +6,8 @@
     <ProjectGuid>{59E13D5F-0634-4088-8863-D30978DA4ECC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EFSecondLevelCache.FunctionalTests</RootNamespace>
-    <AssemblyName>EFSecondLevelCache.FunctionalTests</AssemblyName>
+    <RootNamespace>EFSecondLevelCachePlus.FunctionalTests</RootNamespace>
+    <AssemblyName>EFSecondLevelCachePlus.FunctionalTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -28,6 +28,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -78,12 +81,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\EFSecondLevelCache\EFSecondLevelCachePlus.csproj">
-      <Project>{c348a09f-eed0-4e99-a3b9-5a698c6883d2}</Project>
+      <Project>{C348A09F-EED0-4E99-A3B9-5A698C6883D2}</Project>
       <Name>EFSecondLevelCachePlus</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EFSecondLevelCache.TestDataLayer\EFSecondLevelCache.TestDataLayer.csproj">
+    <ProjectReference Include="..\EFSecondLevelCache.TestDataLayer\EFSecondLevelCachePlus.TestDataLayer.csproj">
       <Project>{a206c065-3ca1-4c61-9191-e57ccd589b89}</Project>
-      <Name>EFSecondLevelCache.TestDataLayer</Name>
+      <Name>EFSecondLevelCachePlus.TestDataLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

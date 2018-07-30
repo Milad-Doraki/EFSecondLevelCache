@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web.Caching;
 
-namespace EFSecondLevelCache.Contracts
+namespace EFSecondLevelCachePlus.Contracts
 {
     /// <summary>
     /// EFCachePolicy determines the AbsoluteExpiration time and Priority of the cache.

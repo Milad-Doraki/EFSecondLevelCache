@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace EFSecondLevelCache.TestDataLayer.Models
+namespace EFSecondLevelCachePlus.TestDataLayer.Models
 {
     public class Tag
     {

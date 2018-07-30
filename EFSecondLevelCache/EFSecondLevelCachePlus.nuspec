@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>EFSecondLevelCachePlus</id>
+    <version>$version$</version>
+    <authors>Milad Doraki</authors>
+    <owners>Milad Doraki</owners>
+    <licenseUrl>https://github.com/Milad-Doraki/EFSecondLevelCachePlus/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/Milad-Doraki/EFSecondLevelCachePlus</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <summary>$description$</summary>
+    <language>en-US</language>
+    <tags>EntityFramework Cache Caching SecondLevelCache EF6 ORM Interceptor</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\NET40\EFSecondLevelCachePlus.dll" target="lib\net40" />
+    <file src="bin\Release\NET40\EFSecondLevelCachePlus.xml" target="lib\net40" />
+    <file src="bin\Release\NET45\EFSecondLevelCachePlus.dll" target="lib\net45" />
+    <file src="bin\Release\NET45\EFSecondLevelCachePlus.xml" target="lib\net45" />
+    <file src="readme.txt" target="" />
+  </files>
+</package>

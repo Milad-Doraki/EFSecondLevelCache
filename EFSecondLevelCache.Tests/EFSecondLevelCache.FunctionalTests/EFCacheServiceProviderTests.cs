@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using EFSecondLevelCache.Contracts;
+using EFSecondLevelCachePlus.Contracts;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace EFSecondLevelCache.FunctionalTests
+namespace EFSecondLevelCachePlus.FunctionalTests
 {
     [TestClass]
     public class EFCacheServiceProviderTests

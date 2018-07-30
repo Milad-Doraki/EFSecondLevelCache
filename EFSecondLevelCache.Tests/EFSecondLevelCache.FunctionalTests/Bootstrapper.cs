@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Data.Entity;
-using EFSecondLevelCache.TestDataLayer.DataLayer;
+using EFSecondLevelCachePlus.TestDataLayer.DataLayer;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace EFSecondLevelCache.FunctionalTests
+namespace EFSecondLevelCachePlus.FunctionalTests
 {
     [TestClass]
     public class Bootstrapper

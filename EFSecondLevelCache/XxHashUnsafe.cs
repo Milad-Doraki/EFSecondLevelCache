@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// xxHash is an extremely fast non-cryptographic Hash algorithm, working at speeds close to RAM limits.

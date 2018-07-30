@@ -1,9 +1,10 @@
+ 
 using System.Data.Entity.Core.Objects;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
-using EFSecondLevelCache.Contracts;
+using EFSecondLevelCachePlus.Contracts;
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// Returns a new cached query.

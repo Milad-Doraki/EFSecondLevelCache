@@ -4,12 +4,12 @@ using System.Linq;
 using System.Linq.Dynamic; // https://github.com/NArnott/System.Linq.Dynamic
 using System.Text;
 using System.Threading.Tasks;
-using EFSecondLevelCache.Contracts;
-using EFSecondLevelCache.TestDataLayer.DataLayer;
-using EFSecondLevelCache.TestDataLayer.Models;
+using EFSecondLevelCachePlus.Contracts;
+using EFSecondLevelCachePlus.TestDataLayer.DataLayer;
+using EFSecondLevelCachePlus.TestDataLayer.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace EFSecondLevelCache.FunctionalTests
+namespace EFSecondLevelCachePlus.FunctionalTests
 {
     [DynamicLinqType]
     public class ProductInfo

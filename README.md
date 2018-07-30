@@ -1,4 +1,4 @@
-EFSecondLevelCache
+EFSecondLevelCachePlus
 =======
 Entity Framework 6.x Second Level Caching Library.
 
@@ -6,22 +6,22 @@ Second level caching is a query cache. The results of EF commands will be stored
 
 Install via NuGet
 -----------------
-To install EFSecondLevelCache, run the following command in the Package Manager Console:
+To install EFSecondLevelCachePlus, run the following command in the Package Manager Console:
 
 ```
-PM> Install-Package EFSecondLevelCache
+PM> Install-Package EFSecondLevelCachePlus
 ```
 
-You can also view the [package page](http://www.nuget.org/packages/EFSecondLevelCache/) on NuGet.
+You can also view the [package page](http://www.nuget.org/packages/EFSecondLevelCachePlus/) on NuGet.
 
 
 
 Usage:
 -----------------
-1- [Setting up the cache invalidation](/EFSecondLevelCache.Tests/EFSecondLevelCache.TestDataLayer/DataLayer/SampleContext.cs) by overriding the SaveChanges method to prevent stale reads:
+1- [Setting up the cache invalidation](/EFSecondLevelCachePlus.Tests/EFSecondLevelCachePlus.TestDataLayer/DataLayer/SampleContext.cs) by overriding the SaveChanges method to prevent stale reads:
 
 ```csharp
-namespace EFSecondLevelCache.TestDataLayer.DataLayer
+namespace EFSecondLevelCachePlus.TestDataLayer.DataLayer
 {
     public class SampleContext : DbContext
     {
@@ -50,7 +50,7 @@ namespace EFSecondLevelCache.TestDataLayer.DataLayer
 
         private string[] getChangedEntityNames()
         {
-            // Updated version of this method: \EFSecondLevelCache\EFSecondLevelCache.Tests\EFSecondLevelCache.TestDataLayer\DataLayer\SampleContext.cs
+            // Updated version of this method: \EFSecondLevelCachePlus\EFSecondLevelCachePlus.Tests\EFSecondLevelCachePlus.TestDataLayer\DataLayer\SampleContext.cs
             return this.ChangeTracker.Entries()
                 .Where(x => x.State == EntityState.Added ||
                             x.State == EntityState.Modified ||

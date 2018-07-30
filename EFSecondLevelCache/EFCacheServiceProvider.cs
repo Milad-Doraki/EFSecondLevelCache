@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Caching;
-using EFSecondLevelCache.Contracts;
+using EFSecondLevelCachePlus.Contracts;
 using System.Collections.Concurrent;
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// Using HttpRuntime.Cache as a cache service. It works with both desktop and web applications.
@@ -122,10 +122,14 @@ namespace EFSecondLevelCache
             foreach (var rootCacheKey in rootCacheKeys)
             {
 
-                if (string.IsNullOrWhiteSpace(rootCacheKey)) continue;
-                // Removes all cached items depend on this key.
-                // If any of those cached items change, the whole dependency will be changed and the dependent item will be invalidated as well.
-                HttpRuntime.Cache.Remove(rootCacheKey);
+                if (!string.IsNullOrWhiteSpace(rootCacheKey))
+                {
+                    // Removes all cached items depend on this key.
+                    // If any of those cached items change, the whole dependency will be changed and the dependent item will be invalidated as well.
+                    HttpRuntime.Cache.Remove(rootCacheKey);
+                }
+                 
+                _rootKeys.TryRemove(rootCacheKey, out string value);
             }
         }
 

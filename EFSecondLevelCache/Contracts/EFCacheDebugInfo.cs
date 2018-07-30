@@ -1,4 +1,4 @@
-﻿namespace EFSecondLevelCache.Contracts
+﻿namespace EFSecondLevelCachePlus.Contracts
 {
     /// <summary>
     /// Stores the debug information of the caching process.

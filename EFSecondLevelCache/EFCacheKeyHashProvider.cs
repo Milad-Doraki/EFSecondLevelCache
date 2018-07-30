@@ -1,7 +1,7 @@
 ﻿using System;
-using EFSecondLevelCache.Contracts;
+using EFSecondLevelCachePlus.Contracts;
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// Computes the unique hash of the input, using the xxHash algorithm.

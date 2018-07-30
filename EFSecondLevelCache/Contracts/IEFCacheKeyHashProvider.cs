@@ -1,4 +1,4 @@
-namespace EFSecondLevelCache.Contracts
+namespace EFSecondLevelCachePlus.Contracts
 {
     /// <summary>
     /// The CacheKey Hash Provider Contract.

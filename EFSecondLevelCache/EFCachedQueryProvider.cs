@@ -3,12 +3,12 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
-using EFSecondLevelCache.Contracts;
+using EFSecondLevelCachePlus.Contracts;
 #if !NET40
 using System.Data.Entity.Infrastructure;
 #endif
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// Defines methods to create and execute queries that are described by an System.Linq.IQueryable object.

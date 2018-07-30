@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Data.Entity.Core.Common.CommandTrees;
 using System.Data.Entity.Core.Objects;
 using System.Linq;
-using EFSecondLevelCache.Contracts;
+using EFSecondLevelCachePlus.Contracts;
 using System.Linq.Expressions;
 
-namespace EFSecondLevelCache
+namespace EFSecondLevelCachePlus
 {
     /// <summary>
     /// A custom cache key provider for EF queries.

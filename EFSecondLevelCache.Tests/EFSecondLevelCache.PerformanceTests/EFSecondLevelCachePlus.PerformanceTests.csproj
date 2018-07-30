@@ -4,25 +4,34 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A206C065-3CA1-4C61-9191-E57CCD589B89}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{FA334191-408D-4B9B-AAAC-EB1F3189366B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EFSecondLevelCache.TestDataLayer</RootNamespace>
-    <AssemblyName>EFSecondLevelCache.TestDataLayer</AssemblyName>
+    <RootNamespace>EFSecondLevelCachePlus.PerformanceTests</RootNamespace>
+    <AssemblyName>EFSecondLevelCachePlus.PerformanceTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
-    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -41,12 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataLayer\Configuration.cs" />
-    <Compile Include="DataLayer\SampleContext.cs" />
-    <Compile Include="Models\Product.cs" />
-    <Compile Include="Models\Tag.cs" />
-    <Compile Include="Models\TPT.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +61,10 @@
     <ProjectReference Include="..\..\EFSecondLevelCache\EFSecondLevelCachePlus.csproj">
       <Project>{c348a09f-eed0-4e99-a3b9-5a698c6883d2}</Project>
       <Name>EFSecondLevelCachePlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EFSecondLevelCache.TestDataLayer\EFSecondLevelCachePlus.TestDataLayer.csproj">
+      <Project>{a206c065-3ca1-4c61-9191-e57ccd589b89}</Project>
+      <Name>EFSecondLevelCachePlus.TestDataLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

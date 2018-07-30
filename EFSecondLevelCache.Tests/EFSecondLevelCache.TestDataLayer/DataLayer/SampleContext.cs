@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using EFSecondLevelCache.TestDataLayer.Models;
+using EFSecondLevelCachePlus.TestDataLayer.Models;
 
-namespace EFSecondLevelCache.TestDataLayer.DataLayer
+namespace EFSecondLevelCachePlus.TestDataLayer.DataLayer
 {
     public static class ChangeTrackerExtenstions
     {
